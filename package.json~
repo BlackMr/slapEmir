@@ -1,8 +1,7 @@
 {
   "name": "node-sample",
-  "description": "sample Node to Heroku app",
+  "description": "Our sample Node to Heroku app",
   "main": "server.js",
-  "verison": "0.1.0",
   "scripts": {
     "start": "node server.js"
   },
@@ -10,10 +9,5 @@
     "ejs": "~1.0.0",
     "express": "latest",
     "jquery":"latest"
-  },
-  "engines": { 
-    "node":"0.12.7",
-    "npm":"2.13.1"
   }
-
 }
