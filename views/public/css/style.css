@@ -1,0 +1,66 @@
+body
+{
+
+		margin: 0 auto;
+}
+/*-webkit-zoom-in
+-webkit-zoom-out
+-webkit-zoom-grab
+-webkit-zoom-grabbing
+*/
+.container
+{	
+	width:1280px;
+	height:1024px;
+	background-color: orange;
+	position: relative;
+	margin: 0 auto;
+	
+}
+.bodyPic
+{
+	content:url("bodyPic2.png");
+	position: relative;
+	top:340px;
+	margin:0 auto;
+}
+.actionArea
+{
+	position: absolute;
+	top:250px;
+	left:30%;
+	width:500px;
+	height:300px;
+}
+
+
+.face
+{
+position: absolute;
+top:23px;
+left:38%;
+content:url("eeeDil3.png");
+
+
+}
+
+.faceLocation{
+	position:relative;
+	background-image: url("backgroundPic2.png");
+	background-color: grey;
+	cursor: url('slapReady.png'),auto;
+	width:100%;
+	height:100%;	
+}
+#samplePar
+{
+	color:"red";
+}
+#counter
+{
+	color:red;
+	background-color: black;
+	position:absolute;
+	top:100px;
+	left:100px;
+}
